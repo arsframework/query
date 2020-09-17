@@ -1,0 +1,74 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: UserService</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">wuyq.query.service</a> ]
+</div>
+
+<h1>Coverage Summary for Class: UserService (wuyq.query.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+</tr>
+<tr>
+  <td class="name">UserService</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package wuyq.query.service;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import java.util.List;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;import wuyq.query.pojo.entity.User;
+<i>6</i>&nbsp;import wuyq.query.util.Conditions;
+<i>7</i>&nbsp;import wuyq.query.util.Orders;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;/**
+<i>10</i>&nbsp; * 用户业务操作接口
+<i>11</i>&nbsp; *
+<i>12</i>&nbsp; * @author wuyongqiang
+<i>13</i>&nbsp; * @date 2020/9/17
+<i>14</i>&nbsp; */
+<i>15</i>&nbsp;public interface UserService {
+<i>16</i>&nbsp;    /**
+<i>17</i>&nbsp;     * 查询用户
+<i>18</i>&nbsp;     *
+<i>19</i>&nbsp;     * @param users     用户列表数据源
+<i>20</i>&nbsp;     * @param condition 查询条件
+<i>21</i>&nbsp;     * @param orders    排序字段列表
+<i>22</i>&nbsp;     * @param groups    分组字段列表
+<i>23</i>&nbsp;     * @param limit     用户列表截取长度
+<i>24</i>&nbsp;     * @return
+<i>25</i>&nbsp;     */
+<i>26</i>&nbsp;    List&lt;User&gt; query(List&lt;User&gt; users, Conditions.Condition condition, List&lt;Orders.Order&gt; orders, List&lt;String&gt; groups, Integer limit);
+<i>27</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-09-18 02:25</div>
+</div>
+</body>
+</html>
