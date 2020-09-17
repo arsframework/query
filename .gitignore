@@ -1,0 +1,15 @@
+# Generated files #
+*/target/
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
+*/.settings/
+*/.classpath
+*/.project
